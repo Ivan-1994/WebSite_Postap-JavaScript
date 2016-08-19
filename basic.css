@@ -1,0 +1,302 @@
+﻿body
+{
+    color: #8f6d45;
+    font: 11px Verdana,Tahoma,Helvetica,sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+#leftfon 
+{
+    background-attachment: fixed;
+    background-color: transparent;
+    background-image: url(image/bunker.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.body1
+{
+    width: 100%;
+}
+
+.header
+{
+    width: 800px;
+    height: 200px;
+    /*border: 1px solid #c0c0c0;  */
+    opacity: 0.8;
+    position: relative;
+    left: -90px;
+}
+.header1 
+{
+    width: 165px;
+    height: 124px;
+    background-image: url(image/1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 90px;
+    top: -60px;
+}
+.header2 
+{
+    width: 165px;
+    height: 124px;
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 90px;
+    top: -60px;
+}
+.header3 
+{
+    width: 165px;
+    height: 124px;
+    background-image: url(image/3.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 90px;
+    top: -60px;
+}
+.header4 
+{
+    position: relative;
+    left: 92px;
+    top: 4.5px;
+}
+.textheader {
+    width: 750px;
+    height: 21px;
+    background-image: url(image/fonheadtext.png);
+    text-indent: 2%;
+    margin:10px auto;
+    position: relative;
+    top: 10px;
+
+    color: #de1c1c;
+    font-family: Italic;
+    font-size: 1.4em;
+
+}
+.left1
+{
+
+}
+.menu1
+{
+    width: 800px;
+    height: 26.6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   /* border: 1px solid #c0c0c0;*/
+    background-image: url(image/menu.jpg);
+}
+.tableP 
+{
+    float: left;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+.tdP1
+{
+    float: left;
+    position: relative;
+    left: 40px;
+}
+.tdP2
+{
+    float: left;
+    position: relative;
+    left: 37px;
+}
+.tdP3 
+{
+    float: left;
+    position: relative;
+    left: 34px;
+}
+.tdP4
+{
+    float: left;
+    position: relative;
+    left: 31px;
+}
+.pos
+{
+    float: left;
+    position: relative;
+    top: -15px;
+    left: -26px;
+}
+
+/*ul {
+    width: 180px; /* Ширина меню 
+    list-style: none; /* Для списка убираем маркеры 
+    margin: 0; /* Нет отступов вокруг 
+    padding: 0; /* Убираем поля вокруг текста 
+    font-family: Geneva, Arial, Helvetica, sans-serif; /* Рубленый шрифт для текста меню 
+    font-weight: bold;
+    font-size: 10pt; /* Размер названий в пункте меню 
+   }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно 
+    display: none; /* Скрываем подменю 
+    margin-bottom: 20px; /* Сдвигаем подменю вправо 
+    /*margin-top: -2em;  Сдвигаем подменю вверх 
+   }
+   li a {
+    display: block; /* Ссылка как блочный элемент 
+    padding: 5px; /* Поля вокруг надписи 
+    text-decoration: none; /* Подчеркивание у ссылок убираем 
+    color: #ffffff; /* Цвет текста 
+    border: 1px solid #ccc;/* Рамка вокруг пунктов меню 
+    background-image: url(image/menu1.jpg); /* Цвет фона 
+    border-bottom: none; /* Границу снизу не проводим 
+   }
+   li a:hover {
+    color: #e7e7e7; /* Цвет текста активного пункта 
+    background-color: #5488af; /* Цвет фона активного пункта 
+   }
+   li:hover ul { 
+    display: block; /* При выделении пункта курсором мыши отображается подменю 
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; /* Линия снизу 
+   }*/
+#imag {
+    border: 0px;
+    background-image: url(image/exit1.png);
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 85px;
+    position: absolute;
+    top: 135px;
+    right: 196px;
+    opacity: 0.6;
+}
+#imag:active {
+    border: 0px;
+    background-image: url(image/exit_hover1.png);
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 85px;
+    position: absolute;
+    top: 135px;
+    right: 195px;
+    opacity: 0.6;
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+.textdata {
+    color: #818183;
+    font-size: 10px;
+}
+.headtext {
+    padding-left: 15px;
+    color: #B17200;
+    font-weight: bold;
+    font-size: 11px;
+    background: url(http://unit-online.ru/static/img/ahtung.gif) no-repeat center left;
+}
+.pr {
+    width: 100%;
+    height: 3px;
+    background-image: url(image/pr.png);
+}
+.center1
+{
+    width: 800px;
+    background-image: url(image/centerfon.png);
+    
+    /*border: 1px solid #c0c0c0;*/ 
+    background-color: #191919;    
+}
+#tablecenter {
+    vertical-align: text-top;
+}
+.centertop {
+    width: 800px;
+    height: 10px;
+    background-image: url(image/menu.jpg);
+  
+}
+.centertop1 {
+    padding: 5px 20px 5px 20px;
+}
+.centerleft 
+{   
+    width: 10px;
+    height: 100px;
+    position: relative;
+    left: -11px;
+    top: -3.5px;
+    background-image: url(image/bok.jpg);
+    background-repeat: repeat-y;
+}
+.centerright 
+{
+    width: 10px;
+    height: 100px;
+    position: relative;
+    right: -12.5px;
+    top: -3.5px;
+    background-image: url(image/bok.jpg);
+    background-repeat: repeat-y;
+}
+.centerbottom 
+{
+    width: 800px;
+    height: 10px;
+    background-image: url(image/menu.jpg);
+    position:relative;
+    top: -23px;
+    left: 0px;
+}
+.botton1
+{
+    width: 800px;
+    height: 29px;
+    font-family: Arial, sans-serif;
+    color: #c0c0c0;
+    text-indent:20px;
+    background-image: url(image/menu1.jpg);
+    
+}
+#tablebottom1 {
+    position:relative;
+    top: -24px;
+}
+
+#tablebottom {
+    position:relative;
+    top: -29px;
+}
+#imgbottom {
+    position:relative;
+    top: -5px;
+    left: -5px;
+}
+/*temporary*/
+#temporary {
+    position:relative;
+    top: 7px;
+}
+/*Теги*/
+p {
+    text-indent: 10px;
+}
+h3 {
+    text-align:center;
+    color: #B17200;
+}
+iframe {
+    border: 0px;
+}
